@@ -27,18 +27,18 @@ This project uses uv (a faster Python package manager) instead of pip for depend
 ✅ Clean streaming of tool calls and responses
 
 # 🧩 Tech Stack
-Python 3.11+
+- Python 3.11+
 
-uv (Python dependency management)
+- uv (Python dependency management)
 
-FastMCP
+- FastMCP
 
-LlamaIndex (formerly GPT Index)
+- LlamaIndex
 
-OpenAI GPT-4o
+- OpenAI GPT-4o
 
-HTTPx (for async HTTP requests)
+- HTTPx (for async HTTP requests)
 
-Serper.dev API (Google Search API)
+- Serper.dev API (Google Search API)
 
-BeautifulSoup (Web scraping)
+- BeautifulSoup (Web scraping)
