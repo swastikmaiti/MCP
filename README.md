@@ -42,3 +42,37 @@ This project uses uv (a faster Python package manager) instead of pip for depend
 - Serper.dev API (Google Search API)
 
 - BeautifulSoup (Web scraping)
+
+
+## 📖 References
+
+- **Server-side code reference:**  
+  [MCP Quickstart Server](https://modelcontextprotocol.io/quickstart/server)
+
+- **Client-side code reference:**  
+  [LlamaIndex MCP Integration Example](https://github.com/run-llama/llama_index/blob/main/llama-index-integrations/tools/llama-index-tools-mcp/examples/mcp.ipynb)
+
+
+
+## 🚀 Running the Project
+
+### 1. Start MCP Server
+
+```bash
+uv run mcp_server.py --server_type=sse
+```
+
+### 2. Start MCP Client
+
+```bash
+python mcp_client.py
+```
+
+### 3. Usage Example
+
+```bash
+You: Who is the CEO of OpenAI?
+Agent: Sam Altman is the CEO of OpenAI. (retrieved from latest web search)
+```
+
+
